@@ -43,13 +43,14 @@ Ran powershell script to create bulk users from a csv file which included severa
 
 
 ## Step 3 - AD Group creation and User assignment
-Ran powershell script to create one AD group and then multiple groups.
-Ran another powershell to add selective end users to designated AD groups.
-
+Ran powershell scripts via Integrated Scripting Environment (ISE) console to create one AD group and then multiple groups thereafter.
+Ran another powershell to add selective end users to designated AD groups within same ISE environment.
+Lastly - verified those same users were added to AD groups.
 
 
 
 - ![Project-2-User-Management](ADUC-new-adusers-bulk-creation.png "My Project Logo")
+- 
 
 
 ## Skills Demonstrated
