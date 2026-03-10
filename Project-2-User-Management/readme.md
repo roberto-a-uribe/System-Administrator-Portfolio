@@ -70,6 +70,11 @@ Check Users were moved into correct AD groups
 
 
 ## Step 4 - BONUS - Export list of users within Active Directory
+Ran powershell scripts to view user data within Active Directory - exported list to a CSV file.
+
+![Project-2-User-Management](PS_add_users_TO_ADGROUP-check.png "My Project Logo")
+
+
 
 
 ## Skills Demonstrated
