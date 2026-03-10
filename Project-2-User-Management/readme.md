@@ -57,8 +57,11 @@ New Group - HR
 New Groups - Marketing/IT/Finance/Facilities
 
 ![Project-2-User-Management](PS_ISE_newAD-groups-bulk.png "My Project Logo")
+
 ![Project-2-User-Management](ADUC_NewAD-groups-bulk-check.png "My Project Logo")
+
 ![Project-2-User-Management](PS_add_users_TO_ADGROUP1.png "My Project Logo")
+
 ![Project-2-User-Management](PS_add_users_TO_ADGROUP1-2.png "My Project Logo")
 
 Check Users were moved into correct AD groups
@@ -72,15 +75,27 @@ Check Users were moved into correct AD groups
 ## Step 4 - BONUS - Export list of users within Active Directory
 Ran powershell scripts to view user data within Active Directory - exported list to a CSV file.
 
-![Project-2-User-Management](PS_add_users_TO_ADGROUP-check.png "My Project Logo")
+
+![Project-2-User-Management](PS-list-of-active-users1.png "My Project Logo")
+
+
+![Project-2-User-Management](PS-list-of-active-users-export-csv2.png "My Project Logo")
+
+CSV file output
+
+![Project-2-User-Management](PS-list-of-active-users-export-csv.png "My Project Logo")
 
 
 
 
-## Skills Demonstrated
+
+
+# Skills Demonstrated
 
 - OU design for scalable AD structure
 - User account provisioning in Active Directory
 - Security group creation and access modeling
 - GUI-based AD administration using ADUC
 - PowerShell verification of AD group membership
+- Export csv report of users within ADUC
+  
