@@ -6,33 +6,43 @@
 This project involved creating AD users and groups, modifying different attributes of AD users and AD groups in a home lab using Windows ADUC and Powershell script within domain called "BERTO.local".
 
 
-## Created Single/Multiple end users
+
+## Step 1 - Created Single/Multiple end users
 User creation - Clark Kent
-- **Screenshot – Single user creation using powershell script**
+- Single user creation using powershell script**
     
-- ![Project-1-AD-Setup](PS-ckent-cmd-verified.png "My Project Logo")
+- ![Project-2-User-Management](PS-ckent-cmd-verified.png "My Project Logo")
   
-- ![Project-1-AD-Setup](PS-ckent-ADUC-verified.png "My Project Logo")
+- ![Project-2-User-Management](PS-ckent-ADUC-verified.png "My Project Logo")
+
 
 
 ## Encountered Powershell ERROR / Resolution
-Ran powershell script and ERROR came up - after error checking and troubleshooting - Error stemmed from wrong input of OU (Org Unit) designation instead of CN (Common Name) as per domain ADUC structure.
 
-- ![Project-1-AD-Setup](PS-new-aduser-ERROR.png "My Project Logo")
+Ran powershell script and ERROR came up - after error checking and troubleshooting - Error stemmed from wrong input of OU (Org Unit) designation instead of CN (Common Name) as per domain ADUC structure within the powershell script.
+
+
+- ![Project-2-User-Management](PS-new-aduser-ERROR.png "My Project Logo")
   
 
 
-## User Creation - Bulk addition
+## Step2 - User Creation - Bulk addition
 
-- ![Project-1-AD-Setup](PS-ckent-ADUC-verified.png "My Project Logo")
+Ran powershell script to create bulk users from a csv file which included several attributes.
+
+
+- ![Project-2-User-Management](PS-new-adusers-bulk-creation.png "My Project Logo")
+- ![Project-2-User-Management](CSV-list-new-adusers-bulk-creation.png "My Project Logo")
+
+- Verified bulk users were created by a poweshell check and ADUC structure.
   
- 
-- Created and logged in with the domain admin account `berto.local\administrator`
-- Verified the domain setup using Active Directory Users and Computers (ADUC) and DNS Manager
+- ![Project-2-User-Management](PS-new-adusers-bulk-check.png "My Project Logo")
+- ![Project-2-User-Management](ADUC-new-adusers-bulk-creation.png "My Project Logo")
+  
 
 
 
-
+## Step 3 - AD Group creation and User assignment
 
 
 
