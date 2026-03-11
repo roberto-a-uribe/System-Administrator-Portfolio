@@ -4,14 +4,12 @@
 
 
 This project involved configuring and applying group policy settings to designated users and groups within home lab Active Directory (`BERTO.local`).
-
-
+In this lab I walk through every key step—from understanding GPO concepts to installing tools, creating policies, and applying them.
 
 ## 🛡️ Group Policy Management Home Lab: Creating and Setting Up GPOs
 
 
-In this lab I walk through every key step—from understanding GPO concepts to installing tools, creating policies, and applying them.
----
+
 
 
 ### 🧠 What is GPO?
@@ -49,16 +47,16 @@ GPO settings are divided into:
 
 To manage GPOs, the **GPMC** must be installed.
 
-#### Steps: Step 1
-
-1. On the domain controller:
+#### Step 1:
+On the domain controller:
 
    * Open **Server Manager**
    * Click **Add Roles and Features**
    * Select **Group Policy Management**
    * Finish installation
 
-2. Open GPMC via:
+#### Step 2:
+Open GPMC via:
 
    ```
    Start > Administrative Tools > Group Policy Management
@@ -78,6 +76,8 @@ There are multiple ways to create and assign GPOs. Below are the steps and types
 4. Name your GPO (e.g., *PasswordPolicy-GPO*)
 5. Right-click the GPO and choose **Edit**
 6. Configure settings under **Computer Configuration** or **User Configuration**
+
+--- 
 
 #### Types of GPOs:
 
