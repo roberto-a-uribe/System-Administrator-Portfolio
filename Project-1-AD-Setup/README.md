@@ -9,7 +9,9 @@ This project involved deploying a Windows Server 2025 virtual machine in home la
 ## Key Steps
 
 - Deployed a Windows Server 2025 VM - Evaluation edition within VMware Workstation - Server-DC01
-- **Screenshot – Static IP Settings:**  
+  
+- **Screenshot – Static IP Settings:**
+  
 ![Project-1-AD-Setup](server01-dc01-IP-address-info.png "My Project Logo")
 - Assigned a static private IP address
 - Installed the Active Directory Domain Services and DNS Server roles
@@ -19,7 +21,7 @@ This project involved deploying a Windows Server 2025 virtual machine in home la
   
 - Promoted the server to a domain controller and created the forest `berto.local`
 - ![Project-1-AD-Setup](server01-dc01-localserver.png "My Project Logo")
-- 
+  
 - Created and logged in with the domain admin account `berto.local\administrator`
 - Verified the domain setup using Active Directory Users and Computers (ADUC) and DNS Manager
 
@@ -38,6 +40,7 @@ This project involved deploying a Windows Server 2025 virtual machine in home la
 - login succesful with berto\administrator account
 - `Get-ADDomain` and `dcdiag` returned healthy results
 - ADUC and DNS Manager both showed expected domain structure
+
 
 ## Skills Demonstrated
 
