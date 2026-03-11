@@ -42,7 +42,7 @@ This project involved deploying a Windows Server 2025 virtual machine in home la
 - ADUC and DNS Manager both showed expected domain structure
 
 
-## Skills Demonstrated
+## 📚 Skills Demonstrated
 
 - Windows Server 2025 installation, setup and configuration
 - Networking (static IP reservation and DNS settings)
