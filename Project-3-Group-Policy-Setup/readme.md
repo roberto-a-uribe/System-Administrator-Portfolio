@@ -1,4 +1,4 @@
-# Project 3 – Group Policy Setup & Configuration - Testing
+# Project 3 – Group Policy Setup & Configuration
 
 ## Overview
 
