@@ -26,12 +26,6 @@ This project involved deploying a Windows Server 2025 virtual machine in home la
 - Verified the domain setup using Active Directory Users and Computers (ADUC) and DNS Manager
 
 
-## Warnings Observed During Promotion
-
-- **Static IP Warning**: The promotion wizard warned that no static IP was assigned. This is expected when the NIC is configured via Azure and the VM uses DHCP.
-- **DNS Delegation Warning**: Another expected warning when creating a new forest without an existing parent DNS domain.
-- **Disk Write Cache Warning**: The wizard noted that disk write caching could not be disabled on the C: drive. This is normal for Azure VMs and does not impact functionality.
-
 ## Domain Verification
 
 - Confirmed domain name: `berto.local`
@@ -42,9 +36,14 @@ This project involved deploying a Windows Server 2025 virtual machine in home la
 - ADUC and DNS Manager both showed expected domain structure
 
 
+## Adding PC to Domain
+
+
+
+
 ## 📚 Skills Demonstrated
 
 - Windows Server 2025 installation, setup and configuration
 - Networking (static IP reservation and DNS settings)
 - Active Directory and DNS role installation
-- adding PC to domain using domain administrator credentials
+- Adding PC to domain using domain administrator credentials
