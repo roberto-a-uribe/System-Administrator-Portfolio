@@ -26,7 +26,7 @@ This project involved deploying a Windows Server 2025 virtual machine in home la
 - Verified the domain setup using Active Directory Users and Computers (ADUC) and DNS Manager
 
 
-## Domain Verification
+## 🛠️ Domain Verification
 
 - Confirmed domain name: `berto.local`
 - Verified `administrator` as a member of the `Domain Admins` group
@@ -36,7 +36,7 @@ This project involved deploying a Windows Server 2025 virtual machine in home la
 - ADUC and DNS Manager both showed expected domain structure
 
 
-## Adding PC to Domain
+## 🛠️ Adding PC to Domain
 
 
 
