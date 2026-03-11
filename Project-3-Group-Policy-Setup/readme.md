@@ -1,4 +1,4 @@
-# Project 3 – Group Policy Setup & Configuration
+# 🛡️ Project 3 – Group Policy Setup & Configuration
 
 ## Overview
 
@@ -6,7 +6,7 @@
 This project involved configuring and applying group policy settings to designated users and groups within home lab Active Directory (`BERTO.local`).
 In this lab I walk through every key step—from understanding GPO concepts to installing tools, creating policies, and applying them.
 
-## 🛡️ Group Policy Management Home Lab: Creating and Setting Up GPOs
+## Group Policy Management Home Lab: Creating and Setting Up GPOs
 
 
 
