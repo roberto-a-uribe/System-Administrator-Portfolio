@@ -123,12 +123,35 @@ Succesfully encountered error as per GPO password length
 
 ### 🧩 GPO 2 - Scenario - Preventing access to Control Panel
 
-![Project-3-GPO-Management](BERTO-tstark-password-change-ERROR.png "My Project Logo")
+![Project-3-GPO-Management](GPO-prevent-control-panel-access1.png "My Project Logo")
+
+![Project-3-GPO-Management](GPO-prevent-control-panel-access2.png "My Project Logo")
+
+![Project-3-GPO-Management](GPO-prevent-control-panel-access3.png "My Project Logo")
+
+![Project-3-GPO-Management](GPO-prevent-control-panel-access4.png "My Project Logo")
+
+
+
+
+User Test - Tony Stark - BERTO\tstark
+
+
+
+![Project-3-GPO-Management](GPO-control-panel-gpresult.png "My Project Logo")
+
+![Project-3-GPO-Management](GPO-control-panel-gpresult-check.png "My Project Logo")
+
+![Project-3-GPO-Management](GPO-control-panel-gpresult-message.png "My Project Logo")
 
 
 
 
 ### 🧩 GPO 3 - Scenario - Prevent user access to Powershell
+
+
+
+
 
 
 
