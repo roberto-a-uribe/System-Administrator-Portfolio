@@ -7,7 +7,7 @@ This project involved creating AD users and groups, modifying different attribut
 
 
 
-## Step 1 - Created Single end user
+## Step 1 - Created single end user
 User creation - Clark Kent
 
 - Single user creation using powershell script
