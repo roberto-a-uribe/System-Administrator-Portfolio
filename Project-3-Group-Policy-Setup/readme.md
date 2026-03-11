@@ -95,7 +95,8 @@ There are multiple ways to create and assign GPOs. Below are the steps and types
 
 ### 🧩 GPO 2 - Scenario - Preventing access to Control Panel
 
-### 🧩 GPO 3 - Scenario - Locking Desktop after inactivity
+### 🧩 GPO 3 - Scenario - Prevent user access to Powershell
+
 
 
 ---
