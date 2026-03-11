@@ -6,7 +6,7 @@
 This project involved deploying a Windows Server 2025 virtual machine in home lab using VMWware Workstation 17 Pro and promoting it to a domain controller in a new Active Directory forest (`BERTO.local`). This is the first step in building out a simulated enterprise environment for hands-on systems administration practice. In the same lab I created and added a Windows 11 Pro client computer to berto.local domain.
 
 
-## Key Steps
+## 🛠️ Key Steps
 
 - Deployed a Windows Server 2025 VM - Evaluation edition within VMware Workstation - Server-DC01
   
