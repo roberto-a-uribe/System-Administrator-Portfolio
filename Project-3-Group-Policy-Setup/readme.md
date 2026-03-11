@@ -174,9 +174,7 @@ User Test - Tony Stark - BERTO\tstark
 
 ---
 
-### 🧾 Conclusion
-
-This lab highlights my capability to:
+### 🧾Skills Demonstrated
 
 * Build and configure a fully functional Windows Server lab environment
 * Understand and apply Group Policy to enforce enterprise security controls
