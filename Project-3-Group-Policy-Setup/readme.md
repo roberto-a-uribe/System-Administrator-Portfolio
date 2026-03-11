@@ -151,7 +151,24 @@ User Test - Tony Stark - BERTO\tstark
 
 
 
+![Project-3-GPO-Management](GPO-disable-powershell-access1.png "My Project Logo")
 
+
+![Project-3-GPO-Management](GPO-disable-powershell-access2.png "My Project Logo")
+
+
+![Project-3-GPO-Management](GPO-disable-powershell-access3.png "My Project Logo")
+
+
+![Project-3-GPO-Management](GPO-disable-powershell-access-verify.png "My Project Logo")
+
+
+
+
+### Bonus - Create a GPO via Powershell script - All settings disabled
+
+
+![Project-3-GPO-Management](GPO-PS-disable-wallpaper.png "My Project Logo")
 
 
 
