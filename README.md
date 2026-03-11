@@ -30,7 +30,7 @@ Planned demonstration how to enforce workstation policies across different depar
 
 ---
 
-## Goals
+## 📚 Goals
 
 - Build a full-featured, enterprise-style Windows environment in a virtual environment
 - Showcase skills in server deployment, domain management, and security configuration
