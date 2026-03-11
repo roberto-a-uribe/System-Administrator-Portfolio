@@ -93,6 +93,32 @@ There are multiple ways to create and assign GPOs. Below are the steps and types
 
 ### 🧩 GPO 1 - Scenario - Enforcing password length
 
+![Project-3-GPO-Management](GP-create-new-1.png "My Project Logo")
+
+![Project-3-GPO-Management](GP-create-new-edit.png "My Project Logo")
+
+Linked to Domain Computers
+
+![Project-3-GPO-Management](GP-create-new-linked.png "My Project Logo")
+
+
+![Project-3-GPO-Management](GP-create-new-password-settings.png "My Project Logo")
+
+![Project-3-GPO-Management](GP-create-new-verify.png "My Project Logo")
+
+![Project-3-GPO-Management](GP-create-new-verify2.png "My Project Logo")
+
+
+User Test - Tony Stark - BERTO\tstark
+
+![Project-3-GPO-Management](BERTO-tstark-login.png "My Project Logo")
+
+![Project-3-GPO-Management](BERTO-tstark-password-change-login.png "My Project Logo")
+
+Succesfully encountered error as per GPO password length
+
+![Project-3-GPO-Management](BERTO-tstark-password-change-ERROR.png "My Project Logo")
+
 ### 🧩 GPO 2 - Scenario - Preventing access to Control Panel
 
 ### 🧩 GPO 3 - Scenario - Prevent user access to Powershell
