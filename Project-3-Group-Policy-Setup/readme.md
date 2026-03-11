@@ -49,7 +49,7 @@ GPO settings are divided into:
 
 To manage GPOs, the **GPMC** must be installed.
 
-#### Steps:
+#### Steps: Step 1
 
 1. On the domain controller:
 
@@ -90,13 +90,13 @@ There are multiple ways to create and assign GPOs. Below are the steps and types
 
 ---
 
-### 🧩 Example GPO Scenarios
 
+### 🧩 GPO 1 - Scenario - Enforcing password length
 
-* Enforcing password length
-* Locking the desktop after inactivity
-* Preventing access to Control Panel
-* Configuring Windows Update behavior
+### 🧩 GPO 2 - Scenario - Preventing access to Control Panel
+
+### 🧩 GPO 3 - Scenario - Locking Desktop after inactivity
+
 
 ---
 
