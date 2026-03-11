@@ -119,7 +119,14 @@ Succesfully encountered error as per GPO password length
 
 ![Project-3-GPO-Management](BERTO-tstark-password-change-ERROR.png "My Project Logo")
 
+
+
 ### 🧩 GPO 2 - Scenario - Preventing access to Control Panel
+
+![Project-3-GPO-Management](BERTO-tstark-password-change-ERROR.png "My Project Logo")
+
+
+
 
 ### 🧩 GPO 3 - Scenario - Prevent user access to Powershell
 
