@@ -24,7 +24,7 @@ Created a structured set of Organizational Units (OUs) to simulate a departmenta
 
 
 
-### Project 3 – Group Policy Implementation (Future)
+### Project 3 – Group Policy Implementation and Management
 Planned demonstration how to enforce workstation policies across different departments using Group Policy Objects (GPOs), including security hardening for domain PCs and users.
 
 
