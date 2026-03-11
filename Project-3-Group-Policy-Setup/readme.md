@@ -3,46 +3,109 @@
 ## Overview
 
 
-This project involved configuring and applying group policy settings to designated users and groups within Active Directory (`BERTO.local`).
+This project involved configuring and applying group policy settings to designated users and groups within home lab Active Directory (`BERTO.local`).
 
 
-## Key Steps
 
-- Deployed a Windows Server 2025 VM - Evaluation edition within VMware Workstation - Server-DC01
-- **Screenshot – Static IP Settings:**  
-![Project-1-AD-Setup](server01-dc01-IP-address-info.png "My Project Logo")
-- Assigned a static private IP address
-- Installed the Active Directory Domain Services and DNS Server roles
-- **Screenshot – Domain Controller Services Roles**
-- ![Project-1-AD-Setup](server01-dc01-setup1.png "My Project Logo")
-- ![Project-1-AD-Setup](server01-dc01-setup2.png "My Project Logo")
-  
-- Promoted the server to a domain controller and created the forest `berto.local`
-- ![Project-1-AD-Setup](server01-dc01-localserver.png "My Project Logo")
-- 
-- Created and logged in with the domain admin account `berto.local\administrator`
-- Verified the domain setup using Active Directory Users and Computers (ADUC) and DNS Manager
+## 🛡️ Group Policy Management Home Lab: Creating and Setting Up GPOs
 
 
-## Warnings Observed During Promotion
+In this lab I walk through every key step—from understanding GPO concepts to installing tools, creating policies, and applying them.
+---
 
-- **Static IP Warning**: The promotion wizard warned that no static IP was assigned. This is expected when the NIC is configured via Azure and the VM uses DHCP.
-- **DNS Delegation Warning**: Another expected warning when creating a new forest without an existing parent DNS domain.
-- **Disk Write Cache Warning**: The wizard noted that disk write caching could not be disabled on the C: drive. This is normal for Azure VMs and does not impact functionality.
 
-## Domain Verification
+### 🧠 What is GPO?
 
-- Confirmed domain name: `berto.local`
-- Verified `administrator` as a member of the `Domain Admins` group
-- Confirmed DNS zone was created for `berto.local`
-- login succesful with berto\administrator account
-- `Get-ADDomain` and `dcdiag` returned healthy results
-- ADUC and DNS Manager both showed expected domain structure
+**Group Policy Object (GPO)** is a feature of Microsoft Windows Active Directory that provides centralized management and configuration of operating systems, applications, and users' settings.
 
-## Skills Demonstrated
 
-- Windows Server 2025 installation, setup and configuration
-- Networking (static IP reservation and DNS settings)
-- Active Directory and DNS role installation
-- adding PC to domain using domain administrator credentials
+GPOs allow administrators to:
 
+* Enforce password policies
+* Configure desktop environments
+* Install software
+* Set user rights
+* Restrict access to certain features or areas
+
+---
+
+### 📚 GPO Review
+
+This section offers a quick theoretical review of Group Policy concepts:
+
+* **Local GPO**: Applies settings to the local machine
+* **Non-local GPO**: Created in AD DS and applies to users/computers in OUs
+* **Group Policy Inheritance**: Policies are inherited from parent OUs unless blocked
+* **Policy Precedence**: Local < Site < Domain < OU
+
+GPO settings are divided into:
+
+* **Computer Configuration**: Applied during system startup
+* **User Configuration**: Applied at user login
+
+---
+
+### 🛠️ Installing the Group Policy Management Console (GPMC)
+
+To manage GPOs, the **GPMC** must be installed.
+
+#### Steps:
+
+1. On the domain controller:
+
+   * Open **Server Manager**
+   * Click **Add Roles and Features**
+   * Select **Group Policy Management**
+   * Finish installation
+
+2. Open GPMC via:
+
+   ```
+   Start > Administrative Tools > Group Policy Management
+   ```
+
+---
+
+### 🧪 Creating GPOs + Types of GPOs
+
+There are multiple ways to create and assign GPOs. Below are the steps and types.
+
+#### How to Create a GPO:
+
+1. Open **Group Policy Management**
+2. Right-click on the **OU or Domain** where you want to apply the GPO
+3. Select **Create a GPO in this domain, and Link it here**
+4. Name your GPO (e.g., *PasswordPolicy-GPO*)
+5. Right-click the GPO and choose **Edit**
+6. Configure settings under **Computer Configuration** or **User Configuration**
+
+#### Types of GPOs:
+
+| Type            | Description                                                 |
+| --------------- | ----------------------------------------------------------- |
+| **Local GPO**   | Applies only to local machines                              |
+| **Domain GPO**  | Managed centrally via AD DS                                 |
+| **Starter GPO** | Template GPO used to create new GPOs with baseline settings |
+| **Linked GPO**  | GPOs linked to Sites, Domains, or OUs                       |
+
+---
+
+### 🧩 Example GPO Scenarios
+
+
+* Enforcing password length
+* Locking the desktop after inactivity
+* Preventing access to Control Panel
+* Configuring Windows Update behavior
+
+---
+
+### 🧾 Conclusion
+
+This lab highlights my capability to:
+
+* Build and configure a fully functional Windows Server lab environment
+* Understand and apply Group Policy to enforce enterprise security controls
+* Document and automate configuration management
+
+**It demonstrates my foundational skills in system administration, security policy enforcement, and enterprise IT management.**
