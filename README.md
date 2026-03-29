@@ -19,7 +19,7 @@ Add PC to domain (berto.local)
 Verify DNS settings
 
 
-### 🛡️ Project 2 – User, Group, and OU Management
+### 🛡️ [Project 2 – User, Group, and OU Management](https://github.com/roberto-a-uribe/System-Administrator-Portfolio/tree/main/Project-2-User-Management)
 Created a structured set of Organizational Units (OUs) to simulate a departmental hierarchy. Provisioned user accounts for IT, HR, Marketing and Sales; created corresponding security groups; and assigned users to the correct groups. Verified configuration using PowerShell and documented the process with screenshots.
 
 
