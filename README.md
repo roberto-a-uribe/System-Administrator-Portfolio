@@ -13,7 +13,7 @@ The goal of this portfolio is to demonstrate practical skills that reflect the d
 ## <b>Projects </b>
 
 
-### 🛡️ Project 1 – Active Directory Domain Setup (https://github.com/roberto-a-uribe/System-Administrator-Portfolio/tree/main/Project-1-AD-Setup)
+### 🛡️[Project 1 – Active Directory Domain Setup](https://github.com/roberto-a-uribe/System-Administrator-Portfolio/tree/main/Project-1-AD-Setup)
 Deployed a Windows Server 2025 VM in home lab using VMWare Workstation 17 PRO and promoted it to a domain controller in a new forest (`BERTO.LOCAL`). Configured DNS.
 Add PC to domain (berto.local)
 Verify DNS settings
